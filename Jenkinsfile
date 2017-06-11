@@ -20,8 +20,13 @@ node {
             stage 'Build'
             sh 'go build .'
             
+              stage 'Archive'
+            // Do nothing.
+            
             stage 'Deploy'
             // Do nothing.
+            
+           
         }
     }
 }
